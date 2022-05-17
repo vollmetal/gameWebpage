@@ -1,0 +1,90 @@
+#main_body {
+    background-color: black;
+    color: white;
+    display: block;
+}
+#score_holder_bar {
+    margin-bottom: 2%;
+}
+#score_text {
+    text-align: right;
+    margin-right: 10%;
+}
+
+#play_environment {
+    border-top: 20px solid cadetblue;
+    border-left: 20px solid cadetblue;
+    border-right: 20px solid cadetblue;
+    padding-top: 3%;
+    height: 100%;
+    
+}
+
+.box_set {
+    width: 100%;
+}
+
+.box_class {
+    height: 25px;
+    border: 0px;
+    padding: 0%;
+}
+
+#red_box {
+    background-color: red;
+
+}
+#yellow_box {
+    background-color: yellow;
+
+}
+#green_box {
+    background-color: green;
+
+}
+#blue_box {
+    background-color: blue;
+
+}
+#black_box {
+    background-color: black;
+
+}
+
+#paddle {
+    background-color: cadetblue;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 40%;
+    width: 200px;
+    height: 25px;
+    bottom: 0%;
+}
+
+#white_box_1{
+    background-color: cadetblue;
+    height: 25px;
+    width: 25px;
+}
+
+.ball {
+    background-color: cadetblue;
+    height: 12px;
+    width: 12px;
+}
+
+#top_left_ball {
+    position:absolute;
+    margin: 3% 16.5%;
+
+}
+#top_right_ball {
+    position:absolute;
+    margin: 3% 80%;
+
+}
+#bottom_ball {
+    position:absolute;
+    margin: 12% 5%;
+
+}
